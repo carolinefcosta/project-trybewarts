@@ -5,7 +5,7 @@ const botaoEnviar = document.getElementById('submit-btn');
 const inputAgreement = document.getElementById('agreement');
 
 botaoLogin.addEventListener('click', () => {
-  if(email.value === 'tryber@teste.com' && senha.value === '123456') {
+  if (email.value === 'tryber@teste.com' && senha.value === '123456') {
     window.alert('Olá, Tryber!');
   } else {
     window.alert('Email ou senha inválidos.');
@@ -15,9 +15,9 @@ botaoLogin.addEventListener('click', () => {
 botaoEnviar.disabled = true;
 
 inputAgreement.addEventListener('click', () => {
-  if (botaoEnviar.disabled === true){
+  if (botaoEnviar.disabled === true) {
     botaoEnviar.disabled = false;
   } else {
     botaoEnviar.disabled = true;
   }
-})
+});
