@@ -64,14 +64,24 @@
   width: 30%;
 }
 
+#input-name, #input-lastname {
+
+}
+
+#input-email {
+  
+}
+
+#house{
+  margin: 1%;
+  border-radius: 10%;
+  width: 100px;
+}
+
 #label-content {
   display: flex;
   flex-direction: column;
   margin: 1%;
-}
-
-#house {
-  width: 90px;
 }
 
 .input-and-house {
