@@ -81,3 +81,6 @@
   margin: 1%;
 }
 
+.fullname {
+  display: flex;
+}
