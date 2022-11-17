@@ -70,6 +70,17 @@
   margin: 1%;
 }
 
+#house {
+  width: 90px;
+}
+
+.input-and-house {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  margin: 1%;
+}
+
 .fullname {
   display: flex;
 }
