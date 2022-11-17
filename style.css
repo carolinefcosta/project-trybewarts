@@ -56,7 +56,7 @@
   height: 500px;
 }
 
-#house{
+#house {
   margin: 1%;
   border-radius: 10%;
   width: 100px;
@@ -86,7 +86,7 @@
   margin: 1%;
 }
 
-.textarea, #textArea {
+.textarea , #textArea {
   margin: 1%;
 }
 
