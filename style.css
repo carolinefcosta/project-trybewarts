@@ -85,3 +85,11 @@
   display: flex;
   margin: 1%;
 }
+
+.textarea, #textArea {
+  margin: 1%;
+}
+
+#submit-btn {
+  margin: 1%;
+}
