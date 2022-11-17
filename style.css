@@ -56,11 +56,6 @@
   height: 500px;
 }
 
-#house {
-  margin: 1%;
-  width: 30%;
-}
-
 #house{
   margin: 1%;
   border-radius: 10%;
@@ -90,6 +85,7 @@
   flex-direction: column;
   margin: 1%;
 }
+
 .textarea, #textArea {
   margin: 1%;
 }
