@@ -90,3 +90,18 @@
   display: flex;
   flex-direction: column;
 }
+.textarea, #textArea {
+  margin: 1%;
+}
+
+#submit-btn {
+  margin: 1%;
+}
+
+#footer {
+  text-align: center;
+  color: white;
+  background-color: black;
+  height: 25px;
+  margin: 0;
+}
