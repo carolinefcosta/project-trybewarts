@@ -83,4 +83,10 @@
 
 .fullname {
   display: flex;
+  margin: 1%;
+}
+
+#label-family {
+  display: flex;
+  flex-direction: column;
 }
