@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="style.css">
   <title>Trybewarts</title>
 </head>
-
 <body>
   <header class="header">
     <img src="images/trybewarts-header-logo.svg" alt="Logo da Trybewarts" class="trybewarts-header-logo">
@@ -21,7 +20,6 @@
   </header>
   <main class="main-container">
     <form action="" method="get" id="evaluation-form">
-
       <section class="fullname">
         <label for="input-name"></label>
         <input type="text" name="nome" id="input-name" placeholder="Nome">
@@ -31,7 +29,6 @@
       <section class="input-and-house">
         <label for="input-email"></label>
         <input type="email" name="email" id="input-email" placeholder="Email">
-
         <label for="house"> Casa: </label>
         <select name="" id="house">
           <option value="Gitnória" id="gitnoria-house">Gitnória</option>
@@ -52,25 +49,40 @@
           <input type="radio" name="family" id="fullstack" value="FullStack"> Famila FullStack
       </label>
 
-      <label for="" id="label-content"> Qual conteúdo você está com mais vontade de aprender?
-        <label for="hofs">
-          <input type="checkbox" name="" id="hofs" class="subject" value="HoFs"> HoFs
+      <section>
+        <label for="" id="label-content"> Qual conteúdo você está com mais vontade de aprender?
+          <label for="hofs">
+            <input type="checkbox" name="" id="hofs" class="subject" value="HoFs"> HoFs
+          </label>
+          <label for="jest">
+            <input type="checkbox" name="" id="jest" class="subject" value="Jest"> Jest
+          </label>
+          <label for="promises">
+            <input type="checkbox" name="" id="promises" class="subject" value="Promises"> Promises
+          </label>
+          <label for="react">
+            <input type="checkbox" name="" id="react" class="subject" value="React"> React
+          </label>
+          <label for="sql">
+            <input type="checkbox" name="" id="sql" class="subject" value="SQL"> SQL
+          </label>
+          <label for="python">
+            <input type="checkbox" name="" id="python" class="subject" value="Python"> Python
+          </label>
         </label>
-        <label for="jest">
-          <input type="checkbox" name="" id="jest" class="subject" value="Jest"> Jest
-        </label>
-        <label for="promises">
-          <input type="checkbox" name="" id="promises" class="subject" value="Promises"> Promises
-        </label>
-        <label for="react">
-          <input type="checkbox" name="" id="react" class="subject" value="React"> React
-        </label>
-        <label for="sql">
-          <input type="checkbox" name="" id="sql" class="subject" value="SQL"> SQL
-        </label>
-        <label for="python">
-          <input type="checkbox" name="" id="python" class="subject" value="Python"> Python
-        </label>
+      </section>
+
+      <label id="label-rate">Como você avalia a Trybewarts?
+        <input type="radio" name="rate" value="1" id="">1
+        <input type="radio" name="rate" value="2" id="">2
+        <input type="radio" name="rate" value="3" id="">3
+        <input type="radio" name="rate" value="4" id="">4
+        <input type="radio" name="rate" value="5" id="">5
+        <input type="radio" name="rate" value="6" id="">6
+        <input type="radio" name="rate" value="7" id="">7
+        <input type="radio" name="rate" value="8" id="">8
+        <input type="radio" name="rate" value="9" id="">9
+        <input type="radio" name="rate" value="2" id="">10
       </label>
 
       <label for="" class="textarea">Deixe seu comentário:</label>
@@ -82,7 +94,7 @@
   </main>
   <script src="script.js"></script>
   <footer id="footer">Direitos reservados à Trybewarts©</footer>
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
