@@ -93,3 +93,11 @@
 #submit-btn {
   margin: 1%;
 }
+
+#footer {
+  text-align: center;
+  color: white;
+  background-color: black;
+  height: 25px;
+  margin: 0;
+}
