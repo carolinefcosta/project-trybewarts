@@ -11,17 +11,45 @@
 .trybewarts-login {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  margin: 1%;
 }
+
 #trybewarts-header-title {
   display: flex;
   align-self: center;
+  color: white;
 }
 
 .trybewarts-header-logo {
   height: 80px;
+  margin: 1%;
 }
 
 .trybewarts-login {
   height: 30px;
+}
+
+#e-mail {
+  border-radius: 8px;
+  width: 30%;
+}
+
+#senha {
+  border-radius: 8px;
+  width: 30%;
+}
+
+#botaoLogin {
+  border-radius: 8px;
+  background-color: rgba(128, 0, 128, 0.452);
+  width: 25%;
+}
+
+.main-container {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
 }
