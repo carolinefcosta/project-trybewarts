@@ -69,3 +69,7 @@
   flex-direction: column;
   margin: 1%;
 }
+
+.fullname {
+  display: flex;
+}
