@@ -12,8 +12,6 @@ botaoLogin.addEventListener('click', () => {
   }
 });
 
-botaoEnviar.disabled = true;
-
 inputAgreement.addEventListener('click', () => {
   if (botaoEnviar.disabled === true) {
     botaoEnviar.disabled = false;

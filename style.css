@@ -37,36 +37,23 @@
   width: 100px;
 }
 
-#label-content {
+#label-family {
   display: flex;
-  flex-direction: column;
-  margin: 1%;
 }
 
 .input-and-house {
   display: flex;
   flex-direction: row;
   width: 30%;
-  margin: 1%;
 }
 
 .fullname {
   display: flex;
-  margin: 1%;
 }
 
-#label-family {
+#label-content {
   display: flex;
   flex-direction: column;
-  margin: 1%;
-}
-
-.textarea , #textArea {
-  margin: 1%;
-}
-
-#submit-btn {
-  margin: 1%;
 }
 
 #footer {
@@ -74,5 +61,4 @@
   color: white;
   background-color: black;
   height: 25px;
-  margin: 0;
 }
