@@ -3,6 +3,8 @@ const email = document.getElementById('e-mail');
 const senha = document.getElementById('senha');
 const botaoEnviar = document.getElementById('submit-btn');
 const inputAgreement = document.getElementById('agreement');
+const textArea = document.getElementById('textarea');
+const contador = document.getElementById('counter');
 
 botaoLogin.addEventListener('click', () => {
   if (email.value === 'tryber@teste.com' && senha.value === '123456') {
@@ -18,4 +20,12 @@ inputAgreement.addEventListener('click', () => {
   } else {
     botaoEnviar.disabled = true;
   }
-});
+})
+
+// Contador de caracteres:
+
+textArea.addEventListener('keypress', () => {
+ let quantCaracteres = textArea.value.length;
+ contador.innerText = quantCaracteres + 1;
+})
+
