@@ -5,6 +5,8 @@ const senha = document.getElementById('senha');
 
 const botaoEnviar = document.getElementById('submit-btn');
 const inputAgreement = document.getElementById('agreement');
+const textArea = document.getElementById('textarea');
+const contador = document.getElementById('counter');
 
 // Minhas Funções
 function validaUsuario () {
@@ -30,3 +32,9 @@ inputAgreement.addEventListener('click', ()=>{
   }
 })
 
+// Contador de caracteres:
+
+textArea.addEventListener('keypress', () => {
+ let quantCaracteres = textArea.value.length;
+ contador.innerText = quantCaracteres + 1;
+})
