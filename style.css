@@ -25,8 +25,8 @@
 
 #evaluation-form {
   display: flex;
-  flex-direction: column;
   width: 675px;
+  flex-direction: column;
 }
 
 #trybewarts-forms-logo {
@@ -34,8 +34,6 @@
 }
 
 #house {
-  margin: 1%;
-  border-radius: 10%;
   width: 100px;
 }
 
