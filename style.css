@@ -1,17 +1,15 @@
-* {
-  margin: 0;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
   background-color: rgb(50, 167, 145);
 }
 
+.trybewarts-header-logo {
+  height: 50px;
+}
+
 .trybewarts-login {
   display: flex;
-  flex-direction: row;
-  margin: 1%;
   height: 30px;
 }
 
@@ -19,27 +17,6 @@
   display: flex;
   align-self: center;
   color: white;
-}
-
-.trybewarts-header-logo {
-  height: 80px;
-  margin: 1%;
-}
-
-#e-mail {
-  border-radius: 8px;
-  width: 30%;
-}
-
-#senha {
-  border-radius: 8px;
-  width: 30%;
-}
-
-#botaoLogin {
-  border-radius: 8px;
-  background-color: rgba(128, 0, 128, 0.452);
-  width: 25%;
 }
 
 .main-container {
