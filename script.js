@@ -20,12 +20,9 @@ inputAgreement.addEventListener('click', () => {
   } else {
     botaoEnviar.disabled = true;
   }
-})
-
-// Contador de caracteres:
+});
 
 textArea.addEventListener('keypress', () => {
- let quantCaracteres = textArea.value.length;
- contador.innerText = quantCaracteres + 1;
-})
-
+  const quantCaracteres = textArea.value.length;
+  contador.innerText = quantCaracteres + 1;
+});
