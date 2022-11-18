@@ -166,13 +166,24 @@ describe('Trybewarts', () => {
   });
 
   describe('8 - Acrescente inputs de `nome`, `sobrenome` e `email` ao formulário', () => {
-    const INPUTS = [
-      { placeholder: 'Nome', id: 'input-name' },
-      { placeholder: 'Sobrenome', id: 'input-lastname' },
-      { placeholder: 'Email', id: 'input-email' },
+    const INPUTS = [{
+        placeholder: 'Nome',
+        id: 'input-name'
+      },
+      {
+        placeholder: 'Sobrenome',
+        id: 'input-lastname'
+      },
+      {
+        placeholder: 'Email',
+        id: 'input-email'
+      },
     ];
 
-    INPUTS.forEach(({ placeholder, id }) => {
+    INPUTS.forEach(({
+      placeholder,
+      id
+    }) => {
       it(`Existe um input com o id "${id}" e placeholder "${placeholder}"`, () => {
         cy.get(`input#${id}`).should('exist')
           .and('have.attr', 'placeholder', placeholder);
@@ -183,14 +194,28 @@ describe('Trybewarts', () => {
   describe('9 - Acrescente um `select` ao formulário com o `id` `house` contendo as opções `Gitnória`, `Reactpuff`, `Corvinode` e `Pytherina`', () => {
     beforeEach(() => cy.get(EVALUATION_FORM).as('houses'));
 
-    const HOUSES = [
-      { name: 'Gitnória', id: 'gitnoria-house' },
-      { name: 'Reactpuff', id: 'reactpuff-house' },
-      { name: 'Corvinode', id: 'corvinode-house' },
-      { name: 'Pytherina', id: 'pytherina-house' },
+    const HOUSES = [{
+        name: 'Gitnória',
+        id: 'gitnoria-house'
+      },
+      {
+        name: 'Reactpuff',
+        id: 'reactpuff-house'
+      },
+      {
+        name: 'Corvinode',
+        id: 'corvinode-house'
+      },
+      {
+        name: 'Pytherina',
+        id: 'pytherina-house'
+      },
     ];
 
-    HOUSES.forEach(({ name, id }) => {
+    HOUSES.forEach(({
+      name,
+      id
+    }) => {
       it(`Existe uma option com text e value igual a "${name}" e id igual a "${id}"`, () => {
         cy.get(`${HOUSES_SELECTOR} option#${id}`).then((option) => {
           expect(option).to.have.text(name);
@@ -381,15 +406,21 @@ describe('Trybewarts', () => {
       });
 
       cy.get('.subject').then(($tag) => {
-        cy.wrap($tag).check('React', { force: true });
+        cy.wrap($tag).check('React', {
+          force: true
+        });
       });
 
       cy.get('.subject').then(($tag) => {
-        cy.wrap($tag).check('Jest', { force: true });
+        cy.wrap($tag).check('Jest', {
+          force: true
+        });
       });
 
       cy.get('.subject').then(($tag) => {
-        cy.wrap($tag).check('SQL', { force: true });
+        cy.wrap($tag).check('SQL', {
+          force: true
+        });
       });
 
       cy.get('input[name="rate"]').then(($tag) => {
